@@ -1,0 +1,15 @@
+1. create a filesystem called /database and set the permissions to 744
+2. make sure that this is owned by a group called dba
+3. make sure its owned by a user called oracle
+4. give the oracle user a unique id of 1200
+5. make sure that every file that is created inside of /database automatically inherits the same permission levels 
+6. make sure that the user oracle has full "elevated" privileges
+7. install and set up apache and inside your index.html file, let it contain the following "i will succeed in linux"
+ make sure that you can see this when you enter the ip address of your machine in your browser
+8. write a small script that will output todays date everytime that i run it....also let it output that result to a file called date.txt
+
+
+PLEASE MAKE SURE THAT THE FILESYSTEM YOU CREATE IS PERSISTENT ACROSS REBOOTS
+
+
+also make sure that you practice how to break the root password of your machine
